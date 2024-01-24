@@ -1,0 +1,73 @@
+
+body {
+    display: flex;
+   border: 1px double grey;
+        flex-direction: column;
+    align-items:normal;
+   padding-left: 20px;
+   padding-bottom: 20px;
+  
+   
+}
+
+.flexcontainer {
+    display: flex;
+    flex-direction: column;
+   
+    margin-bottom: 20px;
+}
+
+.flex-row {
+    display: flex;
+    
+}
+   
+
+.flex-header,
+.flex-data {
+    padding: 8px;
+    text-align: center;
+    flex: 3;
+    }
+    .required ::after
+    {
+     
+            content: '*'; /* Display the asterisk */
+           
+            margin-left: 5px; /* Adjust the margin to position the asterisk after the text */
+      
+        color:deeppink;
+        
+    }
+   .custom-text{
+        color: black;
+    }
+      
+
+
+.radio-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="radio"] {
+    margin: 1;
+}
+.custom-star
+{
+    color:coral;
+}
+.checked {
+    color: orange;
+  }
+  .row{
+    font-family: 'Courier New', Courier, monospace;
+
+  }
+  .container{
+display: flex;
+margin-left:30px;
+margin-top: 10px;
+display: normal;
+  }
