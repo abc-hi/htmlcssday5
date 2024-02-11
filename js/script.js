@@ -1,3 +1,5 @@
+// Survey form
+
 function changeImage(val)
 var imgages =display.querySelector("img")
 for(let ind in images)
